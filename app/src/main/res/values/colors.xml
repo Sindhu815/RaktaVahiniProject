@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="rakta_red">#C62828</color>
+    <color name="rakta_red_dark">#8E1B1B</color>
+    <color name="rakta_rose">#FFF1F1</color>
+    <color name="rakta_mist">#F4F7FB</color>
+    <color name="rakta_line">#E5E7EB</color>
+    <color name="rakta_green">#2E7D32</color>
+    <color name="rakta_green_soft">#E8F5E9</color>
+    <color name="rakta_gray">#6D6D6D</color>
+    <color name="rakta_text">#212121</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="black">#FF000000</color>
+</resources>

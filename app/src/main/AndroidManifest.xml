@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_blood_drop"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/ic_blood_drop"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.RaktaVahini">
+
+        <activity
+            android:name=".ui.activities.DonationLogActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".ui.activities.RegisterDonorActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".ui.activities.SearchDonorActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".ui.activities.MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
